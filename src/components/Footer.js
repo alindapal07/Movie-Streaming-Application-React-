@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from 'react-icons/fa';
+import {  FaInstagram,  FaLinkedinIn, FaGit, FaCode,  } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -10,10 +10,10 @@ const Footer = () => {
 
         {/* Left Links */}
         <div className="flex gap-10 text-sm tracking-wider font-medium text-neutral-300">
-          <Link to="/" className="hover:text-yellow-400 transition-all duration-300 uppercase">
+          <Link to="https://rxresu.me/alindapal07/web-developer" className="hover:text-yellow-400 transition-all duration-300 uppercase">
             About
           </Link>
-          <Link to="/" className="hover:text-yellow-400 transition-all duration-300 uppercase">
+          <Link to="https://alindapal-portfolio.vercel.app/" className="hover:text-yellow-400 transition-all duration-300 uppercase">
             Contact
           </Link>
           <Link to="/" className="hover:text-yellow-400 transition-all duration-300 uppercase">
@@ -23,16 +23,16 @@ const Footer = () => {
 
         {/* Social Icons */}
         <div className="flex gap-4">
-          <a href="/" className="text-neutral-300 hover:text-yellow-400 transition-colors duration-300 text-lg">
-            <FaFacebookF />
+          <a href="https://github.com/alindapal07" className="text-neutral-300 hover:text-yellow-400 transition-colors duration-300 text-lg">
+            <FaGit />
           </a>
           <a href="/" className="text-neutral-300 hover:text-yellow-400 transition-colors duration-300 text-lg">
             <FaInstagram />
           </a>
-          <a href="/" className="text-neutral-300 hover:text-yellow-400 transition-colors duration-300 text-lg">
-            <FaTwitter />
+          <a href="https://alindapal-portfolio.vercel.app/" className="text-neutral-300 hover:text-yellow-400 transition-colors duration-300 text-lg">
+            <FaCode />
           </a>
-          <a href="/" className="text-neutral-300 hover:text-yellow-400 transition-colors duration-300 text-lg">
+          <a href="https://www.linkedin.com/in/alinda-pal/" className="text-neutral-300 hover:text-yellow-400 transition-colors duration-300 text-lg">
             <FaLinkedinIn />
           </a>
         </div>
